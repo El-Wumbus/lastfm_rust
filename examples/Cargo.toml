@@ -1,0 +1,44 @@
+[package]
+name = "examples"
+version = "0.0.0"
+publish = false
+edition = "2024"
+license = "MIT"
+
+# If you copy one of the examples into a new project, you should be using
+# [dependencies] instead, and delete the **path**.
+
+#[dev-dependencies]
+#tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+
+[[example]]
+name = "album_add_tags"
+path = "album_add_tags.rs"
+
+[[example]]
+name = "album_get_info"
+path = "album_get_info.rs"
+
+[[example]]
+name = "album_get_tags"
+path = "album_get_tags.rs"
+
+[[example]]
+name = "album_get_top_tags"
+path = "album_get_top_tags.rs"
+
+[[example]]
+name = "album_remove_tags"
+path = "album_remove_tags.rs"
+
+[[example]]
+name = "album_search"
+path = "album_search.rs"
+
+[[example]]
+name = "auth_get_session"
+path = "auth_get_session.rs"
+
+[[example]]
+name = "auth_get_token"
+path = "auth_get_token.rs"
