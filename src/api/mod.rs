@@ -11,16 +11,16 @@ mod tag;
 mod track;
 mod user;
 
-pub use album::Album;
-pub use artist::Artist;
-pub use auth::Auth;
-pub use chart::Chart;
-pub use geo::Geo;
-pub use library::Library;
-pub use parameter_builder::ParameterBuilder;
-pub use tag::Tag;
-pub use track::Track;
-pub use user::User;
+pub use album::*;
+pub use artist::*;
+pub use auth::*;
+pub use chart::*;
+pub use geo::*;
+pub use library::*;
+pub use parameter_builder::*;
+pub use tag::*;
+pub use track::*;
+pub use user::*;
 
 #[derive(Debug, Clone)]
 pub enum LastfmMethod {
