@@ -6,13 +6,6 @@
 
 You can view Last.fm's official API documentation [here](https://www.last.fm/api/).
 
-## Install
-
-Run this command in your terminal to add the latest version of `lastfm-rust`.
-```bash
-cargo add lastfm-rust
-```
-
 ## Usage
 
 Before you begin, make sure you have the following environment variables set up for authentication:
