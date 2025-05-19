@@ -20,3 +20,35 @@ serde-xml-rs = "0.8"
 [dev-dependencies]
 tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 dotenv = "0.15"
+
+[[example]]
+name = "album_add_tags"
+path = "examples/album_add_tags.rs"
+
+[[example]]
+name = "album_get_info"
+path = "examples/album_get_info.rs"
+
+[[example]]
+name = "album_get_tags"
+path = "examples/album_get_tags.rs"
+
+[[example]]
+name = "album_get_top_tags"
+path = "examples/album_get_top_tags.rs"
+
+[[example]]
+name = "album_remove_tags"
+path = "examples/album_remove_tags.rs"
+
+[[example]]
+name = "album_search"
+path = "examples/album_search.rs"
+
+[[example]]
+name = "auth_get_session"
+path = "examples/auth_get_session.rs"
+
+[[example]]
+name = "auth_get_token"
+path = "examples/auth_get_token.rs"
